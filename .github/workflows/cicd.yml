@@ -65,3 +65,6 @@ jobs:
             -e API_HASH="${{secrets.API_HASH}}" \
             --name="momazos01" \
             -d ghcr.io/freddysae0/telegram-re-sender:master
+
+            docker cp /home/${{ vars.SERVER_USER }}/momazos01/resender.session momazos01:/app/resender.session
+            docker start momazos01
