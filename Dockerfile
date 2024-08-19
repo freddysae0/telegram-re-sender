@@ -6,7 +6,6 @@ COPY ./requirements.txt ./
 
 RUN pip install -r ./requirements.txt
 
-COPY ./spy.py ./
-COPY ./spy.session ./
+COPY ./resender.py ./
 
 CMD [ "python" , "spy.py" ]
