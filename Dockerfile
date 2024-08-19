@@ -8,4 +8,4 @@ RUN pip install -r ./requirements.txt
 
 COPY ./resender.py ./
 
-CMD [ "python" , "spy.py" ]
+CMD [ "python" , "resender.py" ]
