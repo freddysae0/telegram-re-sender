@@ -61,8 +61,7 @@ jobs:
             docker pull ghcr.io/freddysae0/telegram-re-sender:master
             docker stop momazos01
             docker rm momazos01
-            docker run -v /home/${{ vars.SERVER_USER }}/momazos01/resender.session:/app/resender.session \
-            -e API_ID="${{secrets.API_ID}}" \
+            docker run -e API_ID="${{secrets.API_ID}}" \
             -e API_HASH="${{secrets.API_HASH}}" \
             --name="momazos01" \
             -d ghcr.io/freddysae0/telegram-re-sender:master
