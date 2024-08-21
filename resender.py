@@ -9,8 +9,8 @@ load_dotenv()
 # Your API credentials and Data
 api_id = os.getenv('API_ID')
 api_hash = os.getenv('API_HASH')
-your_channel = "momazos01"
-channels_to_spy= ["memesltn", "ChistesyMasChistes" , "MemesTgm"  ]
+your_channel = "you_are_god_i_am_not"
+channels_to_spy= ["GospelMusicOfficial", "ComteporaryWorshipMusic" , "UrbanoCristiano" , "Christian_Electronic" , "WorshippingTogether2023" , "alabanzas1985aDios"  ]
 
 
 # Create a Telegram client
